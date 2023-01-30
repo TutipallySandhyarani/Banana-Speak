@@ -3,7 +3,7 @@ var inputText = document.querySelector("#input")
 var outputText =  document.querySelector("#output")
 var url = "https://api.funtranslations.com/translate/minion.json"
 
-function getURL(input) {
+function geturl(input) {
     return url + "?" + "text=" + input
 }
 
